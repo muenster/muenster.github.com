@@ -1,0 +1,41 @@
+#header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#header h1 {
+  height: 51px;
+  width: 380px;
+  background-image: url('../images/logo_website.png');
+  padding: 0;
+  margin: 50px 0 50px 0;
+}
+#header h1 span {
+  display: none;
+}
+
+#header .nav-pills li a {
+  color: #000;
+}
+
+#header .nav-pills .active a, #header .nav-pills .active a:hover {
+  color: #FFF;
+  background-color: #000;
+}
+
+#footer {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+#footer ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#footer ul li {
+  float: left;
+}
